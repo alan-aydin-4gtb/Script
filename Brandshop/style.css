@@ -114,3 +114,40 @@ figcaption {
     background-size: cover;
     align-self: stretch;
 }
+
+.bgc-highlights {
+    background-color: #ffeeddd;
+}
+
+.highlight a{
+    color: #ff0000;
+}
+.memberfoto {
+    background-image: url(membership.webp);
+    background-size: cover;
+    background-position: center;
+    align-self: stretch;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
