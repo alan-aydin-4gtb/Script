@@ -60,7 +60,7 @@ header i {
 }
 section {
     padding: 0 4rem;
-    margin-bottom: 0 1rem;
+    margin-bottom: 1rem;
 }
 
 .videoframe {
@@ -92,7 +92,7 @@ img {
 main img {
     display: block;
     width: 100%;
-    aspect-ratio: 5 / 6;
+    aspect-ratio: 5px / 6px;
     object-fit: cover;
 }
 
@@ -107,7 +107,7 @@ figcaption {
 }
 
 .highlight {
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 .memberfoto {
     background-image: url();
@@ -121,7 +121,7 @@ figcaption {
 }
 
 .highlight a{
-    color: #ff0404;
+    color: #ff0000;
 }
 .memberfoto {
     background-image: url(membership.webp);
@@ -130,9 +130,13 @@ figcaption {
     align-self: stretch;
 }
 
+#membership .flex-item {
+    padding: 2rem;
+}
+
 footer {
-    padding: 5vw 10vw;
-    background-color: #111;
+    padding: 5vw 7vw;
+    background-color: #000000;
     color: #666;
 }
 
